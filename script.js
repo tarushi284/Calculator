@@ -12,12 +12,12 @@ buttons.forEach((btn)=>{
         else if(t=="X")
         {
             t="*";
-            text=text+t;
+            text=t;
             document.querySelector(".text").value=text;
         }
         else if(t=="÷"){
             t="/";
-            text=text+t;
+            text=t;
             document.querySelector(".text").value=text;
         }
         else if(t=="C")
