@@ -1,4 +1,4 @@
-var text;
+var text="";
 let buttons=document.querySelectorAll(".btn");
 
 //function to click each button
@@ -12,12 +12,12 @@ buttons.forEach((btn)=>{
         else if(t=="X")
         {
             t="*";
-            text=t;
+            text=text+t;
             document.querySelector(".text").value=text;
         }
         else if(t=="÷"){
             t="/";
-            text=t;
+            text=text+t;
             document.querySelector(".text").value=text;
         }
         else if(t=="C")
@@ -42,7 +42,7 @@ buttons.forEach((btn)=>{
             }
         }
         else{
-        text=t;
+        text=text+t;
         document.querySelector(".text").value=text;
         }
     })
