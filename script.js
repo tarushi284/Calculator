@@ -42,7 +42,7 @@ buttons.forEach((btn)=>{
             }
         }
         else{
-        text=text +t;
+        text=t;
         document.querySelector(".text").value=text;
         }
     })
